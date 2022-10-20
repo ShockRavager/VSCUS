@@ -12,12 +12,16 @@ VS Code User Settings
                     "foreground": "#4EC9B0",
                     "bold": false
                 },
+                "enumMember": {
+                    "foreground": "#00FFFF",
+                    "bold": false
+                },
                 "function": {
                     "foreground": "#4EC9B0",
                     "bold": false
                 },
                 "class": {
-                    "foreground": "#DCDCAA",
+                    "foreground": "#BCBC6C", // #DCDCAA
                     "bold": false
                 },
                 "property": {
@@ -37,7 +41,7 @@ VS Code User Settings
                     "bold": false
                 },
                 "module": {
-                    "foreground": "#DCDCAA",
+                    "foreground": "#DCDCAA", // #DCDCAA
                     "bold": false
                 },
                 "variable": {
@@ -126,8 +130,24 @@ VS Code User Settings
                         "foreground": "#00FF00",
                         "fontStyle": ""
                     }
-                }
+                },
+                {
+                    "scope": "entity.name.function.decorator",
+                    "settings": {
+                        "foreground": "#00FFFF",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "constant.other",
+                    "settings": {
+                        "foreground": "#00FFFF",
+                        "fontStyle": ""
+                    }
+                }	
             ]
         }
     }
 }
+
+// B5CEA8
