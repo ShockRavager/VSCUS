@@ -1,15 +1,11 @@
 # VSCUS
 VS Code User Settings
 
-{
-    "workbench.colorTheme": "Default Dark+",
-    "editor.bracketPairColorization.enabled": false,
-
-    "editor.semanticTokenColorCustomizations": {
+"editor.semanticTokenColorCustomizations": {
         "[Default Dark+]": {
             "rules": {
                 "method": {
-                    "foreground": "#4EC9B0",
+                    "foreground": "#40E0D0",
                     "bold": false
                 },
                 "enumMember": {
@@ -17,11 +13,11 @@ VS Code User Settings
                     "bold": false
                 },
                 "function": {
-                    "foreground": "#4EC9B0",
+                    "foreground": "#40E0D0", // 4EC9B0
                     "bold": false
                 },
                 "class": {
-                    "foreground": "#BCBC6C", // #DCDCAA
+                    "foreground": "#9B9B00", // #DCDCAA
                     "bold": false
                 },
                 "property": {
@@ -45,40 +41,40 @@ VS Code User Settings
                     "bold": false
                 },
                 "variable": {
-                    "foreground": "#c1e8ff",
+                    "foreground": "#B0C4DE",
                     "bold": false
                 }
             }
         } 
     },
-
+    
     "editor.tokenColorCustomizations": {
         "[Default Dark+]": {
             "textMateRules": [
                 {
                     "scope": "keyword.operator",
                     "settings": {
-                        "foreground": "#4EC9B0"
+                        "foreground": "#40E0D0" 
                     }
                 },
                 {
                     "scope": "storage.type.class",
                     "settings": {
-                        "foreground": "#2887d5",
+                        "foreground": "#2887D5", // 2887D5
                         "fontStyle": "bold"
                     }
                 },
                 {
                     "scope": "storage.type.function",
                     "settings": {
-                        "foreground": "#2887d5",
+                        "foreground": "#2887D5",
                         "fontStyle": "bold"
                     }
                 },
                 {
                     "scope": "keyword.control.flow",
                     "settings": {
-                        "foreground": "#2887d5",
+                        "foreground": "#2887D5",
                         "fontStyle": "bold"
                     }
                 },
@@ -99,21 +95,21 @@ VS Code User Settings
                 {
                     "scope": "keyword.control",
                     "settings": {
-                        "foreground": "#2887d5",
+                        "foreground": "#2887D5",
                         "fontStyle": "bold"
                     }
                 },
                 {
                     "scope": "string.quoted",
                     "settings": {
-                        "foreground": "#00FF80",
+                        "foreground": "#00A100", // 00FF80
                         "fontStyle": ""
                     }
                 },
                 {
                     "scope": "constant.character.escape",
                     "settings": {
-                        "foreground": "#9CDCFE",
+                        "foreground": "#00FF00",
                         "fontStyle": ""
                     }
                 },
@@ -144,10 +140,14 @@ VS Code User Settings
                         "foreground": "#00FFFF",
                         "fontStyle": ""
                     }
-                }	
+                },
+                {
+                    "scope": "keyword.operator.logical.python",
+                    "settings": {
+                        "foreground": "#00BFFF",
+                        "fontStyle": ""
+                    }
+                }
             ]
         }
     }
-}
-
-// B5CEA8
